@@ -1,14 +1,49 @@
 package com.genokiller.Task1;
 
-public class GraphicPrimitive {
+/**
+ * Абстрактний клас {@code GraphicPrimitive} є базовим для всіх графічних фігур.
+ * <p>
+ * Зберігає спільні властивості — координати (x, y), ширину (width) і висоту (height),
+ * які використовуються для позиціонування та розрахунків розмірів.
+ */
+abstract class GraphicPrimitive {
 
-    protected double x, y;
-    protected double width, height;
+    /**
+     * Координата X позиції графічного примітива.
+     * Визначає відстань по горизонталі від початку координат.
+     */
+    protected double x;
 
-    GraphicPrimitive(double x, double y, double width, double height){
-        this.x=x;
-        this.y=y;
-        this.width=width;
-        this.height=height;
+    /**
+     * Координата Y позиції графічного примітива.
+     * Визначає відстань по вертикалі від початку координат.
+     */
+    protected double y;
+
+    /**
+     * Ширина графічного примітива.
+     * Залежить від типу об’єкта (наприклад, діаметр для кола або ширина прямокутника).
+     */
+    protected double width;
+
+    /**
+     * Висота графічного примітива.
+     * Залежить від типу об’єкта (наприклад, діаметр для кола або висота прямокутника).
+     */
+    protected double height;
+
+    /**
+     * Створює новий графічний примітив з указаними координатами та розмірами.
+     *
+     * @param x координата X позиції
+     * @param y координата Y позиції
+     * @param width ширина об'єкта
+     * @param height висота об'єкта
+     */
+    GraphicPrimitive(double x, double y, double width, double height) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
     }
 }
