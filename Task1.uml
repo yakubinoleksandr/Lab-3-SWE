@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.genokiller.Task1</OriginalElement>
+  <nodes>
+    <node x="113.5" y="253.5">com.genokiller.Task1.Rectangle</node>
+    <node x="391.0" y="493.5">com.genokiller.Task1.Line</node>
+    <node x="-86.5" y="34.5">com.genokiller.Task1.GraphicPrimitive</node>
+    <node x="508.0" y="22.0">com.genokiller.Task1.Main</node>
+    <node x="-88.5" y="493.5">com.genokiller.Task1.Circle</node>
+    <node x="618.5" y="229.5">com.genokiller.Task1.Group</node>
+    <node x="318.0" y="-14.0">com.genokiller.Task1.IGraphic</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.genokiller.Task1.Line" target="com.genokiller.Task1.IGraphic" relationship="REALIZATION">
+      <point x="70.5" y="-92.5" />
+      <point x="602.5" y="206.0" />
+      <point x="392.0" y="206.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="com.genokiller.Task1.Circle" target="com.genokiller.Task1.GraphicPrimitive" relationship="GENERALIZATION">
+      <point x="-60.25" y="-92.5" />
+      <point x="-28.25" y="226.0" />
+      <point x="92.0" y="226.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.genokiller.Task1.Rectangle" target="com.genokiller.Task1.GraphicPrimitive" relationship="GENERALIZATION">
+      <point x="-79.25" y="-92.5" />
+      <point x="192.75" y="226.0" />
+      <point x="92.0" y="226.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.genokiller.Task1.Rectangle" target="com.genokiller.Task1.IGraphic" relationship="REALIZATION">
+      <point x="79.25" y="-92.5" />
+      <point x="351.25" y="206.0" />
+      <point x="392.0" y="206.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="com.genokiller.Task1.Group" target="com.genokiller.Task1.IGraphic" relationship="REALIZATION">
+      <point x="0.0" y="-116.5" />
+      <point x="712.0" y="206.0" />
+      <point x="392.0" y="206.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="com.genokiller.Task1.Line" target="com.genokiller.Task1.GraphicPrimitive" relationship="GENERALIZATION">
+      <point x="-70.5" y="-92.5" />
+      <point x="461.5" y="226.0" />
+      <point x="92.0" y="226.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.genokiller.Task1.Circle" target="com.genokiller.Task1.IGraphic" relationship="REALIZATION">
+      <point x="60.25" y="-92.5" />
+      <point x="92.25" y="206.0" />
+      <point x="392.0" y="206.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9354838709677419" showDependencies="false" x="368.5" y="342.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
